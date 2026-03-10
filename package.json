@@ -1,0 +1,34 @@
+{
+  "name": "rfifrmnsyh-dl",
+  "version": "1.0.2",
+  "description": "Universal Social Media Downloader (Support TikTok, YouTube, Facebook, Pinterest, SoundCloud)",
+  "main": "index.js",
+  "bin": {
+    "rfifrmnsyh-dl": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "downloader",
+    "tiktok",
+    "youtube",
+    "facebook",
+    "pinterest",
+    "soundcloud",
+    "video",
+    "audio",
+    "mp3",
+    "mp4"
+  ],
+  "author": "RfiFrmnsyh",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  }
+}
